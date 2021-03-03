@@ -7,9 +7,10 @@ body {
 
 
 #container{
-  width:100;
+  width:100%;
   max-width:1200px;
   margin:0 auto;
+  padding-bottom: 50px;
 }
 /* style for my name */
 #name {
@@ -23,9 +24,12 @@ body {
   margin: 0 auto;
 }
 /* style for header under name */
-strong {
+#title {
   color: #33485e;
   font: uppercase 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
 }
 /* section titles */
 .sectionheader {
@@ -66,4 +70,19 @@ p.description{
   margin:0;
   padding:0;
   text-align:center;
+}
+/*education*/
+#degrees{
+margin:5px 0;
+}
+/*skills*/
+#do{
+  margin: 5px 0;
+}
+/*top mission statement*/
+.top{
+width:60%;
+min-width: 300px;
+margin:0 auto;
+margin-bottom: 30px;
 }
