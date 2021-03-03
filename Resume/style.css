@@ -35,5 +35,6 @@ h4 {
 }
 /* job dates */
 h5 {
+  font-weight: 400;
   font-style: italic;
 }
