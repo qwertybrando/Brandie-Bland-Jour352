@@ -2,10 +2,21 @@
 /* body, default font styles */
 body {
   color: #444;
-  font: 400 1rem 'Open Sans,' sans-serif, Arial, Georgia, sans-serif;
+  font: 400 1rem 'Open Sans', sans-serif, Arial, Georgia, sans-serif;
 }
 h1 {
   color: #33485e;
-  font: uppercase 3rem;
+  text-transform: uppercase
+  font-weight: 3rem;
   text-align: center;
+}
+strong {
+  color: #33485e;
+  font: uppercase 1.5rem;
+}
+h2 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 1.5rem;
+  background-color: #33485e;
 }
