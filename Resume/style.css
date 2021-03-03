@@ -4,19 +4,36 @@ body {
   color: #444;
   font: 400 1rem 'Open Sans', sans-serif, Arial, Georgia, sans-serif;
 }
+/* style for my name */
 h1 {
   color: #33485e;
   text-transform: uppercase;
-  font-weight: 3rem;
+  font-size: 3rem;
   text-align: center;
 }
+/* style for header under name */
 strong {
   color: #33485e;
   font: uppercase 1.5rem;
 }
+/* section titles */
 h2 {
   color: #FFF;
   text-transform: uppercase;
-  font-weight: 1.5rem;
+  font-size: 1.5rem;
   background-color: #33485e;
+}
+/* job titles */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* job organization */
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* job dates */
+h5 {
+  font-style: italic;
 }
