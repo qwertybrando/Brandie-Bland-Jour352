@@ -1,5 +1,11 @@
 /* styles for my resume */
 /* body, default font styles */
 body {
-  font: 400 1rem Open Sans, Arial, Georgia, sans-serif;
+  color: #444;
+  font: 400 1rem "Open Sans", Arial, Georgia, sans-serif;
+}
+h1 {
+  color: #33485e;
+  font: uppercase 3rem;
+  text-align: center;
 }
