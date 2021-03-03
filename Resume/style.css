@@ -4,12 +4,23 @@ body {
   color: #444;
   font: 400 1rem 'Open Sans', sans-serif, Arial, Georgia, sans-serif;
 }
+
+
+#container{
+  width:100;
+  max-width:1200px;
+  margin:0 auto;
+}
 /* style for my name */
-h1 {
+#name {
   color: #33485e;
   text-transform: uppercase;
   font-size: 3rem;
   text-align: center;
+  border-bottom: 1px solid #33485e;
+  width:60%
+  min-width:300px;
+  margin: 0 auto;
 }
 /* style for header under name */
 strong {
@@ -17,25 +28,42 @@ strong {
   font: uppercase 1.5rem;
 }
 /* section titles */
-h2 {
+.sectionheader {
   color: #FFF;
   text-transform: uppercase;
   font-size: 1.5rem;
   background-color: #33485e;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:0;
+  margin-left:0;
+  width:70%;
+  min-width:300px;
+
 }
 /* job titles */
-h3 {
+.jobtitle{
   font-size: 1.5rem;
   font-weight: 600;
 }
 /* job organization */
-h4 {
-  font-size: 1.5rem;
+.organization {
+  font-size: 1.25rem;
   font-weight: 600;
 }
 /* job dates */
-h5 {
+.date {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
+  margin:2px 0;
+}
+p.description{
+  margin:10px 0 10px 0;
+}
+/* menu */
+.menu {
+  margin:0;
+  padding:0;
+  text-align:center;
 }
