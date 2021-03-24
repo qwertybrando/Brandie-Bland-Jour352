@@ -2,7 +2,7 @@ h1.masthead {
 font:700 .9rem arial,sans-serif;
 }
 h2.headline {
-font:bold 2rem arial,sans-serif;
+font:bold 2rem Helvetica,sans-serif;
 }
 #masthead{
   width:99%;
@@ -24,7 +24,7 @@ font:italic 14px Helvetica, sans-serif;
 padding:1%;
 }
 #article {
-  font:400 1rem georgia,serif;
+  font:400 13px Georgia,serif;
   padding:1%;
 }
 figure {
