@@ -1,0 +1,68 @@
+h1.masthead {
+font:700 .9rem arial,sans-serif;
+}
+h2.headline {
+font:bold 2rem arial,sans-serif;
+}
+#masthead{
+  width:99%;
+  margin:0 auto;
+}
+img.masthead {
+width:99%;
+overflow:hidden;
+}
+#content {
+  width:900px;
+  margin: 0 auto;
+}
+#headline{
+  margin:0;
+}
+#byline{
+font:italic 14px Helvetica, sans-serif;
+padding:1%;
+}
+#article {
+  font:400 1rem georgia,serif;
+  padding:1%;
+}
+figure {
+  display: table;
+  float: right;
+  width: 25%;
+  border-top:.1rem solid #ccc;
+  border-left:.1rem solid #ccc;
+  border-right:.1rem solid #ccc;
+  background:#f0f0f0;
+}
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  border-left:.1rem solid #ccc;
+  border-right:.1rem solid #ccc;
+  border-bottom:.1rem solid #ccc;
+  padding:2%;
+  background:#f0f0f0;
+  font-size: .9rem;
+}
+blockquote {
+  font:2rem georgia,serif;
+  padding:2%;
+  background:#f0f0f0;
+  width:50%;
+  margin:0 auto;
+}
+#animation{
+  width:220px;
+  height:60px;
+  background: url() left center;
+  background-size:
+  animation: play 1.5s steps(10) infinite;
+  display:inline-block;
+  padding:1%;
+  font-size:.9rem;
+}
+@keyframes play{
+  100%{background-position: }
+}
