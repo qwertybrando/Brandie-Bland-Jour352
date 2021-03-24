@@ -1,6 +1,9 @@
 h1.masthead {
 font:700 .9rem arial,sans-serif;
 }
+h1.headline {
+font:bold 2rem Helvetica,sans-serif;
+}
 h2.headline {
 font:bold 2rem Helvetica,sans-serif;
 }
