@@ -1,0 +1,105 @@
+/* Brandie Bland midterm */
+/* body */
+body  {
+  box-sizing:border-box;
+  font: 12px Helvetica,Arial,sans-serif;
+}
+
+/* header styles */
+h1.masthead {
+font: bold .9rem Arial,sans-serif;
+}
+h2.headline {
+font: bold 2rem Georgia,serif;
+}
+h3.headline {
+font: bold 1.5rem Georgia,serif;
+}
+
+/* masthead styles */
+#masthead {
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  overflow: hidden;
+}
+img.masthead {
+width: 1400px;
+height: 200px;
+overflow: hidden;
+}
+
+/* page wrapper */
+#content {
+  width: 80%;
+  margin: 0 auto;
+  padding:0 1%;
+  box-sizing:border-box;
+}
+
+/* headline and byline */
+#headline {
+  margin: 0;
+  width:100%;
+  clear:both;
+}
+#byline {
+font: italic 1rem Georgia, serif;
+padding: 0 1%;
+}
+
+/* article styles */
+
+#article {
+  font: 1rem Helvetica,sans-serif;
+  padding: 1%;
+}
+#article p {
+  padding: .6% 0;
+}
+.bigarticle {
+  width: 100%;
+  margin: 0 auto;
+}
+img.bigarticle {
+  width:1000px;
+}
+.medarticle {
+  width: 90%;
+  margin: 0 auto;
+}
+img.medarticle {
+  width:700px;
+}
+.smarticle {
+  float: right;
+  width: 30%;
+}
+img.smarticle {
+  width: 100%;
+}
+figure {
+  display: table;
+  border-top: .1rem solid #f0f0f0;
+  border-left: .1rem solid #f0f0f0;
+  border-right: .1rem solid #f0f0f0;
+  background: #f0f0f0;
+}
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  border-left: .1rem solid #f0f0f0;
+  border-right: .1rem solid #f0f0f0;
+  border-bottom: .1rem solid #f0f0f0;
+  padding: 2%;
+  background: #f0f0f0;
+  font-size: .8rem;
+}
+blockquote {
+  display:block;
+  font: 2rem georgia,serif;
+  padding: 2%;
+  background: #f0f0f0;
+  width: 50%;
+  margin: 0 auto;
+}
