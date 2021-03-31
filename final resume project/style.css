@@ -1,11 +1,11 @@
+/* body */
+p {
+  font-family: 'Kiwi Maru', Georgia, serif;
+}
 /* headings */
 h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', Helvetica, sans-serif;
   color: #003B37;
-}
-h1, h2 {
-  font-variant: small-caps;
-}
-h3,  h4, h5 {
   text-transform: uppercase;
 }
 .panel-title > a {
@@ -72,10 +72,17 @@ span.htm {
  text-align: center;
 }
 /* nav bar styles */
-body {padding-top:50px}
-#main  {padding-top:.5%}
+body {
+  padding-top: 50px;
+}
+#main {
+  padding-top:.5%;
+}
 .navbar-brand > img {
-  max-height:49px;
+  height:48px;
   margin:0 auto;
   padding:0;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
