@@ -1,0 +1,56 @@
+.ed-date {
+ border: .1rem solid #000;
+ border-radius: 100%;
+ padding: 20%;
+ margin: 0 auto;
+ display: inline-block;
+ text-align:center;
+}
+button[name=contact] {
+  background:#000;
+  color:#fff;
+}
+button[name=skills] {
+  border:0rem solid #000;
+  border-radius:100%;
+}
+.skills {
+ border: 0rem solid #000;
+ border-radius:100%;
+ padding:10%;
+ margin:0 auto;
+ text-align:center;
+ vertical-align: middle;
+ background-color:#000;
+ color:#fff;
+ height:3rem;
+ width:3rem;
+ display:inline-block;
+}
+span.htm {
+  font-size:.8rem!important;
+  line-height: 300%;
+}
+.adobe-ai {
+  padding:0 26%;
+  margin:0 auto;
+}
+.adobe-lr {
+  padding:0 26%;
+  margin:0 auto;
+}
+.adobe-pr {
+  padding:0 26%;
+  margin:0 auto;
+}
+.adobe-ps {
+  padding:0 26%;
+  margin:0 auto;
+}
+.adobe-xd {
+  padding:0 26%;
+  margin:0 auto;
+}
+#do {
+  margin: 5px 0;
+}
