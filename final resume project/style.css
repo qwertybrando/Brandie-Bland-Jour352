@@ -1,56 +1,81 @@
+/* headings */
+h1, h2, h3, h4, h5 {
+  color: #003B37;
+}
+h1, h2 {
+  font-variant: small-caps;
+}
+h3,  h4, h5 {
+  text-transform: uppercase;
+}
+.panel-title > a {
+  color: #003B37;
+}
+/* contact styles */
+button[name=contact] {
+  background: #003B37;
+  color: #fff;
+}
+/* skills styles  */
+button[name=skills] {
+  border: 0rem solid #003B37;
+  border-radius: 100%;
+}
+.skills {
+ border: 0rem solid #003B37;
+ border-radius: 100%;
+ padding: 10%;
+ margin: 0 auto;
+ text-align: center;
+ vertical-align: middle;
+ background-color: #003B37;
+ color: #fff;
+ height: 3rem;
+ width: 3rem;
+ display: inline-block;
+}
+span.htm {
+  font-size: .8rem!important;
+  line-height: 300%;
+}
+.adobe-ai {
+  padding: 0 26%;
+  margin: 0 auto;
+}
+.adobe-lr {
+  padding: 0 26%;
+  margin: 0 auto;
+}
+.adobe-pr {
+  padding: 0 26%;
+  margin: 0 auto;
+}
+.adobe-ps {
+  padding: 0 26%;
+  margin: 0 auto;
+}
+.adobe-xd {
+  padding: 0 26%;
+  margin: 0 auto;
+}
+/* projects styles */
+#do {
+  margin: 5px 0;
+}
+/* education styles */
 .ed-date {
- border: .1rem solid #000;
+ border: .1rem solid #003B37;
  border-radius: 100%;
  padding: 20%;
  margin: 0 auto;
  display: inline-block;
- text-align:center;
+ text-align: center;
 }
-button[name=contact] {
-  background:#000;
-  color:#fff;
-}
-button[name=skills] {
-  border:0rem solid #000;
-  border-radius:100%;
-}
-.skills {
- border: 0rem solid #000;
- border-radius:100%;
- padding:10%;
- margin:0 auto;
- text-align:center;
- vertical-align: middle;
- background-color:#000;
- color:#fff;
- height:3rem;
- width:3rem;
- display:inline-block;
-}
-span.htm {
-  font-size:.8rem!important;
-  line-height: 300%;
-}
-.adobe-ai {
-  padding:0 26%;
+/* nav bar styles */
+body {padding-top:50px}
+#main  {padding-top:.5%}
+.navbar-brand > img {
+  max-height:49px;
   margin:0 auto;
-}
-.adobe-lr {
-  padding:0 26%;
-  margin:0 auto;
-}
-.adobe-pr {
-  padding:0 26%;
-  margin:0 auto;
-}
-.adobe-ps {
-  padding:0 26%;
-  margin:0 auto;
-}
-.adobe-xd {
-  padding:0 26%;
-  margin:0 auto;
-}
-#do {
-  margin: 5px 0;
+  padding:0;
 }
