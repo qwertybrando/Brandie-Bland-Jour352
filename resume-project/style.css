@@ -62,6 +62,9 @@ span.htm {
 #do {
   margin: 5px 0;
 }
+#projects {
+  padding:0  1%;
+}
 /* education styles */
 .ed-date {
  border: .1rem solid #003B37;
