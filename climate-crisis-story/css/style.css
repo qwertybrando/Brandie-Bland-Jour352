@@ -1,0 +1,48 @@
+/* Bootstrap Template Custom Css */
+a:hover {
+  color: #4682B4;
+}
+h1.hero {
+  color: #efefef;
+  font-variant: small-caps;
+  font-size: 10vh;
+  text-shadow: 0.01rem .2rem #6a6a6a;
+}
+.lead {
+  font-size: 4vh;
+}
+.hero p {
+  color: #fff;
+  background-color: rgba(0,0,0, 0.3);
+}
+.hero-sm {
+  font-size: 1.5vh;
+  padding: 1%;
+}
+.jumbotron {
+  background-image: url("JusticeGeorgie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.jumbotron-overlay {
+  background-color: rgba(233,150,122, 0.21);
+  padding: 0 1%;
+}
+.byline {
+  font-size: 3vh;
+}
+h2.chapter {
+  padding: 1vh 0;
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  .flex-fig {
+    flex-direction: row;
+  }
+}
+@media (max-width: 767.98px) {
+  .flex-fig {
+    flex-flow: column nowrap;
+    align-self: start;
+  }
+}
