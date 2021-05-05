@@ -11,6 +11,9 @@ a:visited {
 p, li, figcaption {
   font-family: 'Kiwi Maru', Georgia, serif;
 }
+blockquote {
+  color: #e60000;
+}
 /* headings */
 h1, h2, h3, h4, h5, .nav-link {
   font-family: 'Oswald', Helvetica, sans-serif;
@@ -43,6 +46,11 @@ h1.hero {
 .jumbotron-overlay {
   background-color: rgba(140, 134, 134, 0.5);
   padding: 0 1%;
+}
+/*aside*/
+.card-header {
+  background-color: rgba(240, 12, 12, 0.79);
+  color: #fff;
 }
 /* article styles */
 .byline {
