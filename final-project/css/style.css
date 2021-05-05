@@ -1,0 +1,65 @@
+/* Bootstrap Template Custom Css */
+a:active {
+  color: #6A5ACD;
+}
+a:hover {
+  color: #FF8C00;
+}
+a:visited {
+  color: #8B008B;
+}
+p, li, figcaption {
+  font-family: 'Kiwi Maru', Georgia, serif;
+}
+/* headings */
+h1, h2, h3, h4, h5, .nav-link {
+  font-family: 'Oswald', Helvetica, sans-serif;
+}
+/* hero */
+h1.hero {
+  color: #efefef;
+  font-variant: small-caps;
+  font-size: 10vh;
+  text-shadow: 0.01rem .2rem #6a6a6a;
+}
+.lead {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 4vh;
+}
+.hero p {
+  color: #fff;
+  background-color: rgba(0,0,0, 0.3);
+}
+.hero-sm {
+  font-size: 1.5vh;
+  padding: 1%;
+}
+.jumbotron {
+  background-image: url("hero-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.jumbotron-overlay {
+  background-color: rgba(140, 134, 134, 0.5);
+  padding: 0 1%;
+}
+/* article styles */
+.byline {
+  font-size: 3vh;
+}
+h2.chapter {
+  padding: 1vh 0;
+}
+/* media queries */
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  .flex-fig {
+    flex-direction: row;
+  }
+}
+@media (max-width: 767.98px) {
+  .flex-fig {
+    flex-flow: column nowrap;
+    align-self: start;
+  }
+}
